@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Paragraphic v0.9.5 - https://paragraphic.design -->
+
+<svg
+   width="500mm"
+   height="500mm"
+   viewBox="0 0 500 500"
+   xml:space="preserve"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="settings_icon.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs1" /><sodipodi:namedview
+   id="namedview1"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:document-units="mm"
+   inkscape:zoom="0.3444875"
+   inkscape:cx="946.33332"
+   inkscape:cy="944.88189"
+   inkscape:window-width="1536"
+   inkscape:window-height="902"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg1" />
+<g
+   id="Artboard"
+   transform="translate(-149.99994,-50.000011)">
+
+<g
+   id="Path Circle Circle">
+<path
+   id="Path Circle 1"
+   fill="#bebebe"
+   stroke="#000000"
+   stroke-width="1"
+   transform="translate(8.4299316,58.162903)"
+   d="M 339,248.28999 C 347.57001,121.43 325.85004,132.85001 444.14001,194.57001" />
+<path
+   id="Path Circle 2"
+   fill="#bebebe"
+   stroke="#000000"
+   stroke-width="1"
+   transform="rotate(60.000003,345.41443,278.21909)"
+   d="M 339,248.28999 C 347.57001,121.43 325.85004,132.85001 444.14001,194.57001" />
+<path
+   id="Path Circle 3"
+   fill="#bebebe"
+   stroke="#000000"
+   stroke-width="1"
+   transform="rotate(120,378.99479,273.35207)"
+   d="M 339,248.28999 C 347.57001,121.43 325.85004,132.85001 444.14001,194.57001" />
+<path
+   id="Path Circle 4"
+   fill="#bebebe"
+   stroke="#000000"
+   stroke-width="1"
+   transform="rotate(180,395.78498,270.91856)"
+   d="M 339,248.28999 C 347.57001,121.43 325.85004,132.85001 444.14001,194.57001" />
+<path
+   id="Path Circle 5"
+   fill="#bebebe"
+   stroke="#000000"
+   stroke-width="1"
+   transform="rotate(-119.99999,412.57517,268.48504)"
+   d="M 339,248.28999 C 347.57001,121.43 325.85004,132.85001 444.14001,194.57001" />
+<path
+   id="Path Circle 6"
+   fill="#bebebe"
+   stroke="#000000"
+   stroke-width="1"
+   transform="rotate(-60.000006,446.1555,263.618)"
+   d="M 339,248.28999 C 347.57001,121.43 325.85004,132.85001 444.14001,194.57001" />
+</g>
+</g>
+</svg>
