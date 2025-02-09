@@ -183,7 +183,7 @@ func _on_back_button_pressed() -> void:
 	if is_pop_up:
 		SettingsData.exit_settings(self)
 	# Leaves without saving
-	SettingsData.go_back()
+	SettingsData.go_back_to_previous_scene_or_main_scene()
 	#Set the scene to change to.
 
 
