@@ -1,19 +1,31 @@
-# basic-settings-menu
-An addon to add the most basic settings that are common to the editor or for most games (in 2D?)
+extends Node
 
-After adding the plugin, to use the settings scene, just add a change_scene fn to settings or open it over your current screen like a popup.
+const CONFIG_PATH: String ="user://settings.tres"
+const SettingsScene: String = "res://addons/basic_setings_menu/settings.tscn"
 
-To load the settings after lauching the game, just open the settings scene in the background and then close it when the ready signal is emitted, (the ready fn initials the save file and loads the settings from the save)
 
-You could add it as a autoload but would advise avoiding that if possible as that would cost a little in terms of game memory and initial loading time
+var first_time_setup: bool = true
 
-Use any config path like below example with the settings scene path:
+var accessibility: Dictionary = {
+	"current_locale": "en",
+	"small_text_font_size": 20,
+	"big_text_font_size": 64,
+}
+var gameplay_options: Dictionary = {
+	"max_fps": 60,
+	"pause_on_lost_focus": true,
+}
+var video: Dictionary = {
+	"borderless": false,
+	"fullscreen": true,
+	"resolution": Vector2i(1080, 720),
+}
+var audio: Dictionary = {
+	"Master": 100,
+	"Music": 100,
+	"SFX": 100,
+}
 
-    const CONFIG_PATH: String ="user://settings.tres"
-    const SettingsScene: String = "res://addons/basic_setings_menu/settings.tscn"
-
-Here is an example for loading and saving the settings:
-```gdscript
 func _ready():
 	load_settings(true)
 
@@ -66,3 +78,9 @@ func load_settings(with_ui_update : bool = false) -> bool:
 		settings_instance.queue_free()
 	
 	return true
+
+func go_back_to_previous_scene_or_main_scene():
+	get_tree().change_scene_to_file(ProjectSettings.get_setting("application/run/main_scene"))
+
+func exit_settings(settings_scene: SettingsUI):
+	settings_scene.queue_free()
