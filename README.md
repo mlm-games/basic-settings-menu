@@ -5,4 +5,4 @@ After adding the plugin, to use the settings scene, just add a change_scene fn t
 
 To load the settings after lauching the game, the autoload (SettingsData) just opens the settings scene in the background and then closes it when the ready signal is emitted, (the ready fn initials the save file and loads the settings from the save)
 
-You could add it as a autoload but would advise avoiding that if possible as that would cost a little in terms of game memory and initial loading time
+You could add the settings scene itself as a autoload but would advise avoiding that if possible as that would cost a little in terms of game memory and initial loading time
