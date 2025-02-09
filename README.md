@@ -55,10 +55,6 @@ The plugin includes an autoload node (SettingsData) that handles:
 
 - Could add the settings scene as an autoload but would advise otherwise to maintain optimal performance
 
-## Version
-
-Current Version: 0.9.2
-
 ## License
 
 This project uses the [MIT License](LICENSE.md)
